@@ -12,4 +12,9 @@ public class AdressePostale {
         this.codePostal = codePostal;
         this.ville = ville;
     }
+
+    @Override
+    public String toString() {
+        return this.numeroRue + " " + this.libelleRue + ", " + this.codePostal + " " + this.ville;
+    }
 }

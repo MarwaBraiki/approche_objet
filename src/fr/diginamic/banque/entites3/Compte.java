@@ -21,7 +21,7 @@ public class Compte {
         this.solde = solde;
     }
 
-    // toString method
+    // Redéfinition de la méthode toString()
     @Override
     public String toString() {
         return "Compte{" +

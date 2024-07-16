@@ -17,6 +17,10 @@ public class Ville {
         return nom;
     }
 
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
     public int getNbHabitants() {
         return nbHabitants;
     }

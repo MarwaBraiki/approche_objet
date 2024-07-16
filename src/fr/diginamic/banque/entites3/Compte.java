@@ -4,29 +4,16 @@ public class Compte {
     private String numero;
     private double solde;
 
-    // Getters and setters
-    public String getNumero() {
-        return numero;
-    }
-
-    public void setNumero(String numero) {
+    // Constructeur
+    public Compte(String numero, double solde) {
         this.numero = numero;
-    }
-
-    public double getSolde() {
-        return solde;
-    }
-
-    public void setSolde(double solde) {
         this.solde = solde;
     }
 
-    // Redéfinition de la méthode toString()
+    // Méthode toString() pour afficher les informations du compte
     @Override
     public String toString() {
-        return "Compte{" +
-                "numero='" + numero + '\'' +
-                ", solde=" + solde +
-                '}';
+        return "Compte [numero=" + numero + ", solde=" + solde + "]";
     }
+
 }
